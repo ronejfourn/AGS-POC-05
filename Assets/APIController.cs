@@ -9,7 +9,7 @@ public class APIController : MonoBehaviour
     public Camera drawCamera;
     [SerializeField]
     private Text outputText;
-    private const string URL = "https://ronejfourn.pythonanywhere.com/";
+    private const string URL = "https://ronejfourn.pythonanywhere.com/guess";
 
     public void GenerateRequest()
     {
